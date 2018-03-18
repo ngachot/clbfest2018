@@ -1,0 +1,8 @@
+The purpose for incorporating these ERC 721 tokens is that I would like to be able to apply the same structure for creative's contributions to a wider range of assets. Images, movies, manuscripts, etc. could all be represented as an ERC 721 token with outright assignment of copyright interest thereof if done via proposal. 
+
+In examining crypto kitties, there’s nothing in the Solidity contract code that stores a cat’s image, or its description, or that determines what that 256-bit integer actually means. The interpretation of that genetic code happens on CryptoKitty’s web server.
+
+So while this is a really clever demonstration of a game on the blockchain, it’s not actually 100% blockchain-based. If their website was taken offline in the future, unless someone had backed up all the images, you would be left with only owning a meaningless 256-bit integer.
+
+In the contract code, I did find a contract called ERC721Metadata, but it never ends up getting used for anything. So my guess is they originally planned on storing everything in the blockchain, but later decided against it (too cost prohibitive to store a lot of data in Ethereum?) and so they ended up needing to store it on their web server instead.
+
