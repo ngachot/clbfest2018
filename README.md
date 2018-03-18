@@ -1,33 +1,16 @@
 # Decentralized Autonomous Organization (DAO) Framework
 
-[![Build Status](https://travis-ci.org/slockit/DAO.png)](https://travis-ci.org/slockit/DAO)
-
-## What is it?
-
-Note: this is currently not maintained - do not use it as is.
-
-A Standard Decentralized Autonomous Organization (DAO) framework written in Solidity to run on the Ethereum blockchain. 
+Copyright framework over a Standard Decentralized Autonomous Organization (DAO) framework written in Solidity to run on the Ethereum blockchain. 
 
 Feel free to reuse this framework to create your own Decentralized Autonomous Organization.
-
-**Reference:** *"Decentralized autonomous organization to automate governance" -* [White Paper](https://download.slock.it/public/DAO/WhitePaper.pdf) - [Primer](https://blog.slock.it/a-primer-to-the-decentralized-autonomous-organization-dao-69fb125bd3cd)
-
-
-
-## Disclaimer
 
 The future remains a work in progress. Our vision exists in a world where laws vary widely. It is important to remember that anyone who uses the generic DAO framework including the DAO refered to as 'The DAO' or any other DAO will do so at their own risk. One can only speculate about the legal status of DAOs worldwide. Whatever one’s personal beliefs may be, people must draw their own conclusions, relying on legal advice where appropriate. The authors are not a law firm and are not in the business of offering legal advice.
 
 **If you create a DAO it will be your DAO, and you will be responsible for its operation.**
 
-
-
-
-
-
 ## Overview
 
-Our Standard DAO Framework allows people to create Decentralized Autonomous Organizations (DAOs) governed by the code in this repository written immutably to the blockchain.
+Our adapted Standard DAO Framework allows people to create Decentralized Autonomous Organizations (DAOs) governed by the code in this repository written immutably to the blockchain.
 
 We are making the Standard DAO Framework we developed free and open source, so it can be reused by anyone wishing to put together a transparent organization where governance and decision making systems are immutably programmed in the Ethereum blockchain. This code been reviewed by hundreds of pairs of eyes from our community and by one of the most respected auditing companies in the world, Deja Vu.
 
@@ -67,12 +50,20 @@ This contract is used as a fall back in case an exchange doesn't implement the "
 
 
 ## Licensing
-The DAO framework is free software: you can redistribute it and/or modify it under the terms of the GNU lesser General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
-The DAO framework is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU lesser General Public License for more details.
+The DAO is free software: you can redistribute it and/or modify
+it under the terms of the GNU lesser General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version. As a contributor, by requesting that your materials gets merged into this repository, you agree to an outright assignment of your copyright of such materials to the DAO. By submitting a proposal, you agree to an outright assignment of your copyright to the DAO of the proposal itself AND work done by you or subcontractors in furtherance of fulfillment of the proposal. Your contribution will be released under the terms of the GNU lesser General Public License.
 
-A copy of the GNU lesser General Public License is included
+The DAO is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  
+
+Furthermore, any user of this software expressly knows and agrees that the user is using this software at the user’s sole risk. The user acknowledges that the user has an adequate understanding of the risks, usage and intricacies of this software, cryptographic tokens and blockchain-based open source software, eth platform and ethereum. The user acknowledges and agrees that, to the fullest extent permitted by any applicable law, the disclaimers of liability contained herein apply to any and all damages or injury whatsoever caused by or related to risks of, use of, or inability to use this software, ethereum or the Ethereum platform under any cause or action whatsoever of any kind in any jurisdiction, including, without limitation, actions for breach of warranty, breach of contract or tort (including negligence) and that neither copyright holder(s), distributor(s), or contributor(s) of this software, Stiftung Ethereum (i.e. Ethereum Foundation) nor Ethereum team shall be liable for any indirect, incidental, special, exemplary or consequential damages, including for loss of profits, goodwill or data that occurs as a result. Limitation of liability shall apply even if the risks and possibility of such damage was known or should have been known. Limitation of liability shall apply even if the copyright holder(s), distributor(s), or contributor(s) of this software, Stiftung Ethereum, or the Ethereum team were advised of the possibility of such damage. Some jurisdictions do not allow the exclusion of certain warranties or the limitation or exclusion of liability for certain types of damages. Therefore, some of the above limitations in this section may not apply to a user. 
+
+You should have received a copy of the GNU lesser General Public License
+along with the DAO.  If not, see <http://www.gnu.org/licenses/>. A copy of the GNU lesser General Public License is included
 along with the DAO framework. See LICENSE.
 
 
@@ -98,6 +89,6 @@ f. The providers of this software neither warrant nor guarantee this software sh
 
 g. You agree that in order for you to form a legally binding contract that you shall seek legal advice from an appropriately qualified and experienced lawyer within your jurisdiction.
 
-h.  Issuance of DAO tokens may constitute the sale of securities in certain jurisdictions. Seek appropriate legal advice before deploying DAO code.
+h.  Issuance of DAO tokens may constitute the sale of securities in certain jurisdictions. For example, Please note that the SEC has recently said that DAOs qualify as investment contracts. Since investment contracts require registration with the SEC when collecting funds from the public, you should file for SEC registration or qualify for an exemption from registration (such as rule 506 of Regulation D).Seek appropriate legal advice before deploying DAO code.
 
 
